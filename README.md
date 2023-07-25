@@ -1,4 +1,4 @@
-# Description: Salesforce Package Version Creation and Promotion Script
+#Salesforce Package Version Creation and Promotion Script
 
 This shell script automates the process of creating a new Salesforce package version and promoting it. It uses the Salesforce CLI (sfdx) to create the new package version, extracts the SubscriberPackageVersionId from the JSON response, and then promotes the package version using the extracted ID. Finally, it generates an install link for the package version.
 
