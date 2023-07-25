@@ -1,4 +1,4 @@
-#Salesforce Package Version Creation and Promotion Script
+# Salesforce Package Version Creation and Promotion Script
 
 This shell script automates the process of creating a new Salesforce package version and promoting it. It uses the Salesforce CLI (sfdx) to create the new package version, extracts the SubscriberPackageVersionId from the JSON response, and then promotes the package version using the extracted ID. Finally, it generates an install link for the package version.
 
@@ -18,13 +18,13 @@ jq is a lightweight and flexible command-line JSON processor.
 It can be downloaded from https://stedolan.github.io/jq/download/.
 
 For Ubuntu/Debian-based systems:
-sudo apt-get update
-sudo apt-get install jq
+- sudo apt-get update
+- sudo apt-get install jq
 
 For CentOS/RHEL-based systems:
-sudo yum install epel-release
-sudo yum install jq
+- sudo yum install epel-release
+- sudo yum install jq
 
 For macOS using Homebrew:
-brew install jq
+- brew install jq
 
