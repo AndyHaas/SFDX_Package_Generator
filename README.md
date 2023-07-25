@@ -18,4 +18,13 @@ jq is a lightweight and flexible command-line JSON processor.
 It can be downloaded from https://stedolan.github.io/jq/download/.
 
 For Ubuntu/Debian-based systems:
+sudo apt-get update
+sudo apt-get install jq
+
+For CentOS/RHEL-based systems:
+sudo yum install epel-release
+sudo yum install jq
+
+For macOS using Homebrew:
+brew install jq
 
